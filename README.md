@@ -27,3 +27,4 @@ THEN the saved events persist
 ```
 
 ## Mockup
+![image](/images/mockup.gif)
