@@ -1,6 +1,6 @@
 # Week 5 Homework: Scheduler
 
-My solution, hosted using Github Pages: 
+My solution, hosted using Github Pages: https://raven-bootcamp.github.io/week5-homework-scheduler/
 
 The repository with my code: https://github.com/raven-bootcamp/week5-homework-scheduler
 
