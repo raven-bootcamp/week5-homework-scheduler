@@ -18,21 +18,25 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
-    <title>Work Day Scheduler</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Daily Scheduler</title>
   </head>
 
   <body>
-    <header class="jumbotron">
-      <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead"></p>
+    <header class="jumbotron jumbotron-fluid text-center bg-info text-white border-bottom border-dark">
+        <h1 class="display-3">Daily Scheduler</h1>
+        <p class="lead">A simple scheduling app for keeping track of your busy day</p>
+        <p id="currentDay" class="lead"></p>
+        
+        <!-- button to delete all saved data and refresh -->
+        <button id="delete-button" class="btn btn-small btn-danger align-bottom"><i class="fas fa-trash"></i> Clear All</button>
     </header>
     <div class="container">
-      <!-- Timeblocks go here -->
+      <!-- Timeblocks will be inserted in this container -->
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="/scripts/script.js"></script>
   </body>
 </html>

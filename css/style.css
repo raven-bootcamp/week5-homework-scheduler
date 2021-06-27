@@ -1,3 +1,5 @@
+/* most of this CSS was given to us as part of the assignment, much of it is not relevant */
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -10,15 +12,13 @@ textarea {
   resize: none;
   color: #000000;
   border-left: 1px solid black;
-  padding: 10px;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
 }
 
-.jumbotron {
-  text-align: center;
-  background-color: transparent;
-  color: black;
-  border-radius: 0;
-  border-bottom: 10px solid black;
+.container {
+  margin-bottom: 12px;
 }
 
 .description {
@@ -39,11 +39,16 @@ textarea {
 .hour {
   background-color: #ffffff;
   color: #000000;
-  border-top: 1px dashed #000000;
+  border-top: 2px solid #000000;
+  text-align: center;
+  padding-top: 1em;
+  font-weight: bolder;
+  border-left: 2px solid black;
+  border-top-left-radius: 12px;
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: #474545;
   color: white;
 }
 
@@ -53,7 +58,7 @@ textarea {
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #0d5f0d;
   color: white;
 }
 
@@ -61,11 +66,18 @@ textarea {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
+  background-color: #17a2b8;
   color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.saveBtn:hover {
+  background-color: #60eaff;
+  transition-timing-function: ease;
 }
 
 .saveBtn i:hover {
   font-size: 20px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.1s ease;
 }
