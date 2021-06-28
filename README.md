@@ -10,7 +10,14 @@ The app will run in the browser and feature dynamically updated HTML and CSS.
 Moment.js is required to work with date and time.
 
 ## My Approach
-I added an extra button to clear any saved data that exists for your schedule.  It seemed time consuming for the user to delete everything, so I added a button to do that.
+The colours I chose for the various times are:
+- **past** = dark grey
+- **present** = red/pink
+- **future** = dark green
+
+Please keep in mind that if viewing this application after working hours, all of the time blocks are effectively in the past for today, thus they will all be dark grey coloured.  For best assessment of the app, use it during working hours.
+
+I also added an extra button to clear any saved data that exists for your schedule.  It seemed time consuming for the user to delete everything, so I added a button to do that.
 
 Overall I used Bootstrap as it was built into the starter code that was given to us. But the starter code also came along with some CSS, some of which was not relevant due to Bootstrap.  So I found that a little confusing and decided to just leave it in there.  Not sure if that was a test, maybe I should have removed any superfluous code? 
 
