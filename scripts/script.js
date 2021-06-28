@@ -49,7 +49,7 @@ function getCurrentTimeblocks() {
 
 // display the current date under the main heading using Moment
 function displayCurrentDate(currentTime) {
-  currentDay.textContent = currentTime.format("dddd, Do of MMMM");
+  currentDay.textContent = currentTime.format("dddd, Do of MMMM, YYYY");
 }
 
 // display a row for each hour of the working day
